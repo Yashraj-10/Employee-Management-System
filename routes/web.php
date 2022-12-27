@@ -28,6 +28,3 @@ Route::get('/laravel', function() {
 Route::get('/add', function(){
     return view('add', ['heading' => 'Register Employee']);
 });
-
-Route::post('/store', function(Request $request){
-});
